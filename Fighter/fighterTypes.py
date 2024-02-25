@@ -176,6 +176,7 @@ class Fighter():
             self.update_action(2) # getting hit
         elif self.duck:
             self.update_action(3)
+            """Signifcant number of animations to implement still."""
         # elif self.attacking:
             # if self.attack_type == 1:
                 # self.update_action(3) # 3:attack 1
